@@ -1,0 +1,72 @@
+p {
+	color: black;
+}
+#header	{
+	height: 100px;
+	width: 800px;
+	background-color: #888888;
+	margin: 10px;
+	position: absolute;
+	display:block;
+}
+h1	{
+	position: absolute;
+	left:0px
+	top:0px;
+	margin: 10px;
+	z-index: +1;
+}
+h4	{
+	position: relative;
+	top:120px;
+	left: 10px;
+}
+p  {
+	position:relative;
+	top: -120px;
+	left: 10px;
+	width: 800px;
+}
+img {
+	height:200px;
+	width:200px;
+	position:relative;
+	top: -30px;
+	left: 820px;
+}
+#footer	{
+	position:relative;
+	top: -470px;
+	width: 1020px;
+	height: 100px;
+	margin: 10px;
+	background-color: #888888;
+}
+
+#sidebar  {
+	position: relative;
+	width: 200px;
+	height: 250px;
+	margin: 10px;
+	background-color: #888888;
+	left: 810px;
+	top: -510px;
+}
+
+#weekly	{
+	position: relative;
+	left: 820px;
+	z-index: +1;
+	top:-380px;
+	list-style-type: none;
+}
+
+#contact	{
+margin-left: auto;
+margin-right: auto;
+list-style-type: none;
+position: relative;
+top: -550px;
+}
+
+#contact li { display: inline; }
