@@ -1,0 +1,64 @@
+html	{
+	background-color: #B8B8B8;
+}
+h1	{
+	width:75%;
+	position: static;
+	magin: 10px;
+	color: #166350;
+}
+
+#pic	{
+	position: absolute;
+	left: 80%;
+	margin: 10px;
+	top: 0px;
+}
+
+p  {
+	margin-top: 20px;
+	width: 75%;
+	color: #2018A8;
+}
+
+#description  {
+	position: absolute;
+	left: 80%;
+	width: 19%;
+	top: 100px;
+	color: #166350;
+}
+
+#sidebar	{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 80%;
+	top: 250px;
+}
+
+a	{
+	text-decoration: none;
+}
+
+a:hover	{
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #DF0745;
+}
+
+#bottombar	{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	bottom: 10px;
+}
+
+.bottomlinks {
+	display: inline;
+	margin-left: 100px;
+}
