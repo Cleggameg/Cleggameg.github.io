@@ -2,6 +2,7 @@ html	{
 	background-color: #B8B8B8;
 }
 h1	{
+	background-color: green;
 	width:75%;
 	position: static;
 	magin: 10px;
