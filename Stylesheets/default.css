@@ -2,16 +2,15 @@ html	{
 	background-color: #B8B8B8;
 }
 h1	{
-	background-color: green;
 	width:75%;
 	position: static;
-	magin: 10px;
+	margin: 10px;
 	color: #166350;
 }
 
 #pic	{
 	position: absolute;
-	left: 80%;
+	left: 76%;
 	margin: 10px;
 	top: 0px;
 }
