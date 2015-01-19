@@ -8,26 +8,33 @@
   <div ID="header"></div>
   <h1>Cleggameg's Blog</h1>
 
-  <h3>Html and CSS</h3>
-  <h4>January 4, 2015</h4>
+  <h3>Enumerable Methods</h3>
+  <h4>January 18, 2015</h4>
 
   <img ID="pic" src="https://en.gravatar.com/userimage/74631606/6e01d0bbfdec6d319a5dfb204e6624d6.jpg">
 
   <section>
-    <p>The difference between margins, borders, and padding is in it’s positioning. Padding is closest to the content, it is the space between the content and the border. The margin is outside of the border of the content. It can be made visible and and encapsulate the content. The margin is outside the border. It is transparent. The margin represents the space between the content and other content.
+    <p>
+    Enumerables are power tools that are used on collections. This could be a range, an array, or a hash. What they do is go through that collection and perform an action to each thing within the collection. A great way to explain this would be using the enumerable .map
     </p>
     <p>
-      So for example, you could have some text, “pigs,” the padding would represent the area between the word and the borders of the text box. The margins would then be how close that word falls in relation to other elements on the page, like other texts boxes or image.
+    .map is great because it allows you to perform an action to every single element within your collection, and output those in the form of a new array. Let’s take a look:
     </p>
-    <p>This picture may help
-    </p>
-    <img src="http://i.stack.imgur.com/D9nU6.gif">
 
-      <ul ID="sidebar">
-        <li class="sidelinks"><a href="#">Home</a></li>
-        <li class="sidelinks"><a href="#">Digital Portfolio</a></li>
-        <li class="sidelinks"><a href="#">Resume</a></li>
-      </ul>
+    <p>a = [1, 2, 3, 4]<br>a.map { |x| x*2 }    =>[2, 4, 6, 8]</p>
+    <p>The changes that you make to map do not modify the original collection. If you want to do that you would have to use the .map! command. It works similarly, except the changes are permanent:
+    </p>
+    <p>a = [1, 2, 3, 4]<br>
+a.map { |x| x*2 }    =>[2, 4, 6, 8]<br>
+a                            =>[1, 2, 3, 4]<br>
+a.map! { |x| x*2 }    =>[2, 4, 6, 8]<br>
+a                            =>{2, 4, 6, 8]</p>
+
+    <ul ID="sidebar">
+      <li class="sidelinks"><a href="#">Home</a></li>
+      <li class="sidelinks"><a href="#">Digital Portfolio</a></li>
+      <li class="sidelinks"><a href="#">Resume</a></li>
+    </ul>
 
     <ul ID="weekly">
       <li class="weeklinks"><a href="http://cleggameg.github.io/blog/t1-git-blog.html">Technical Blog: Week 1</a></li>
