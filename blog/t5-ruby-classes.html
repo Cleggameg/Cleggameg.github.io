@@ -8,27 +8,27 @@
   <div ID="header"></div>
   <h1>Cleggameg's Blog</h1>
 
-  <h3>Enumerable Methods</h3>
-  <h4>January 18, 2015</h4>
+  <h3>Ruby Classes</h3>
+  <h4>January 25, 2015</h4>
 
   <img ID="pic" src="https://en.gravatar.com/userimage/74631606/6e01d0bbfdec6d319a5dfb204e6624d6.jpg">
 
   <section>
     <p>
-    Enumerables are power tools that are used on collections. This could be a range, an array, or a hash. What they do is go through that collection and perform an action to each thing within the collection. A great way to explain this would be using the enumerable .map
+    Ruby classes can be used in order to model real-world objects. I’ve been thinking about this in terms of my previous career. How could a teacher use ruby classes in order to make their jobs easier, and then I thought about the dreaded task of making seating charts.
     </p>
     <p>
-    .map is great because it allows you to perform an action to every single element within your collection, and output those in the form of a new array. Let’s take a look:
+    A seating chart, if you forgot is something that arranging where students sit within the classroom. This could be done on a 1 student per desk level or could be done where students sit at tables. As a science teacher, I had always had my students sitting in groups at tables. Sometimes I would need to make sure certain students did not sit near each other. Ruby could do all of this.
     </p>
-
-    <p>a = [1, 2, 3, 4]<br>a.map { |x| x*2 }    =>[2, 4, 6, 8]</p>
-    <p>The changes that you make to map do not modify the original collection. If you want to do that you would have to use the .map! command. It works similarly, except the changes are permanent:
+    <p>
+    I’d want to start out by defining the class and then defining methods to go within that class.
     </p>
-    <p>a = [1, 2, 3, 4]<br>
-a.map { |x| x*2 }    =>[2, 4, 6, 8]<br>
-a                            =>[1, 2, 3, 4]<br>
-a.map! { |x| x*2 }    =>[2, 4, 6, 8]<br>
-a                            =>{2, 4, 6, 8]</p>
+    <p>
+    The first method would be some sort of initialization. In this case, I would want my initialization to accept an array of names and the number of students per table. The student names and numbers of students per table would act as instance variables that would drive the rest of your methods. With these variables you could then define methods for that randomize the students names within the array and segregate them into arrays equal to the number of students per table. Additional methods could count the number of students in the class and check to make sure that certain students did not end up at the same table (though this would not involve instance variables, it could still be fun to program). Depending on how fancy you wanted to get, you could even create a method that printed all the information to the council in an easy to read list of arrays.
+    </p>
+    <p>
+    Anyway, creating classes can be really useful in terms of creating real life objects in ruby as well as simulating and solving real life problems.
+    </p>
 
     <ul ID="sidebar">
       <li class="sidelinks"><a href="#">Home</a></li>
