@@ -1,0 +1,91 @@
+.fixed {
+  position: fixed;
+  top: 0;
+  height: 3em;
+  z-index: 1;
+}
+
+.fixed2 {
+  height: 3em;
+  display: block;
+}
+
+.header2 {
+  display: none;
+}
+
+.header {
+  font-family: 'Roboto Condensed';
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: left;
+}
+
+nav {
+  top: 15em;
+  width: 100%;
+  height: 3em;
+  background: #5C4E30;
+}
+
+nav div {
+  padding-right: 1em;
+}
+
+#inner-bottom {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#top {
+  background: #39465C;
+}
+
+#top  p {
+    color: #936E1F;
+    font-family: Roboto Condensed;
+    font-size: 4em;
+    font-weight: bold;
+    padding-left: 3em;
+}
+
+.bar {
+  background-color: #936E1F;
+}
+
+#skill-charts {
+  display: inline;
+}
+
+
+#bottom {
+  background: #457DB0;
+  padding: 0.5em;
+  padding-bottom: 5em;
+}
+
+.inner-chart {
+  text-align: center;
+}
+
+.education {
+  text-align: center;
+}
+
+.icons {
+  height: 3em;
+  width: 3em;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
